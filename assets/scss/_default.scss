@@ -6,12 +6,14 @@
 
 /* Cores */
 
-$texto: #888;
-$corModelo: #315065;
+$cinza: #84888C;
+$cinzaFundo: #F6F9FC;
+$azulClaro: #0285C9;
+$azulEscuro: #132E58;
 
 /* Fontes */
 
-$openSans: 'Open Sans', sans-serif;
+$roboto: 'Roboto', sans-serif;
 
 /* ######
    Mixins
@@ -46,40 +48,71 @@ $openSans: 'Open Sans', sans-serif;
 /* Texto */
 
 @mixin texto($modelo) {
-	@if $modelo == 'texto' {
-		font-size: 14px;
-		line-height: 20px;
+	@if $modelo == 'tituloPrincipal' {
+		color: $azulEscuro;
+		font-size: 42px;
+		font-weight: 400;
+		line-height: 120%;
 		margin: 0 0 15px;
-	} @else if $modelo == 'titulo' {
-		color: $corModelo;
-		font-size: 30px;
-		font-weight: 700;
-		line-height: 35px;
-		text-transform: uppercase;
-		margin: 0 0 30px;
+	} @else if $modelo == "tituloSecundario" {
+		color: $azulEscuro;
+		font-size: 32px;
+		line-height: 130%;
+		margin: 0 0 10px;
+	} @else if $modelo == "tituloSecundarioBranco" {
+		color: #FFF;
+		font-size: 32px;
+		line-height: 130%;
+		margin: 0 0 10px;
+	} @else if $modelo == "subtitulo" {
+		color: $azulEscuro;
+		font-size: 22px;
+		line-height: 130%;
+		max-width: 280px;
+		margin: 24px auto 16px;
+	} @else if $modelo == "paragrafo" {
+		color: $cinza;
+		font-size: 16px;
+		line-height: 150%;
+		margin: 0 0 16px;
+	} @else if $modelo == "paragrafoBranco" {
+		color: #FFF;
+		font-size: 16px;
+		line-height: 150%;
+		margin: 0 0 16px;
+	} @else if $modelo == "paragrafoComplemento" {
+		color: $azulClaro;
+		font-size: 16px;
+		line-height: 150%;
+		display: block;
+	} @else if $modelo == "paragrafoComplementoBranco" {
+		color: #FFF;
+		font-size: 14px;
+		line-height: 150%;
+		letter-spacing: 0.03em;
+		display: block;
+		margin: 15px 0 0;
 	}
 }
 
 /* Botões */
 
 @mixin botao($modelo) {
+	color: #FFF;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: .03em;
 	text-transform: uppercase;
 	display: inline-block;
-	padding: 12px 30px;
-	@if $modelo == 'branco' {
-		color: #FFF;
-		background: $corModelo;
-		&:hover {
-			color: #FFF;
-			background: $corModelo;
-		}
-	} @else if $modelo == 'preto' {
-		color: $corModelo;
-		background: #FFF;
-		&:hover {
-			color: $corModelo;
-			background: #FFF;
-		}
-
+	padding: 15px 40px;
+	transition: .3s;
+	border-radius: 5px;
+	&:hover {
+		opacity: .8;
+	}
+	@if $modelo == "azulClaro" {
+		background: $azulClaro;
+	} @else if $modelo = "azulEscuro" {
+		background: $azulEscuro;
 	}
 }

@@ -1,5 +1,5 @@
 		<div class="box-return">
-			<a href="#top">Voltar</a>
+			<a href="#inicio">Voltar</a>
 		</div><!--/ box-return -->
 	</div><!--/ site -->
 

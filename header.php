@@ -9,7 +9,7 @@
 	<title>Martin Luz | Reembolsos corporativos de forma simples e rápida</title>
 
 	<!-- Favicon -->
-	<link rel="icon" type="image/x-icon" href="">
+	<link rel="icon" type="image/x-icon" href="assets/images/icons/favicon.svg">
 
 	<!-- SEO -->
 	<meta name="keywords" content="">
@@ -19,13 +19,15 @@
 	<meta name="theme-color" content="#000">
 
 	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="style.css?v=1">
 </head>
 <body>
 
-	<div id="top"></div>
+	<div id="inicio"></div>
 
 	<div class="site">
