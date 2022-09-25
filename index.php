@@ -3,6 +3,11 @@
 	<section id="reembolsos">
 		<div class="container">
 			<div class="row">
+				<div class="col-md-6 d-block d-md-none">
+					<figure class="box-image">
+						<img src="assets/images/reembolsos-corporativos.png" alt="">
+					</figure>
+				</div><!--/ col -->
 				<div class="col-md-6">
 					<div class="d-center">
 						<div class="box-content">
@@ -13,7 +18,7 @@
 						</div><!--/ box-content -->
 					</div><!--/ d-center -->
 				</div><!--/ col -->
-				<div class="col-md-6">
+				<div class="col-md-6 d-none d-md-block">
 					<figure class="box-image">
 						<img src="assets/images/reembolsos-corporativos.png" alt="">
 					</figure>
@@ -25,10 +30,10 @@
 	<section id="controle">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-7">
+				<div class="col-md-7 d-none d-md-block">
 					<div class="box-video">
 						<iframe src="https://www.youtube.com/embed/Ry1IkGAKFBg?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</div>
+					</div><!--/ box-video -->
 				</div><!--/ col -->
 				<div class="col-md-5">
 					<div class="d-center">
@@ -37,6 +42,11 @@
 							<p>O BPP Corp é uma solução única para a administração de gastos corporativos que conta com uma conta digital empresarial grátis, cartões VISA pré-pagos para controle total das despesas e um aplicativo sem custos adicionais para tornar seu controle financeiro mais simples e prático!</p>
 						</div><!--/ box-content -->
 					</div><!--/ d-center -->
+				</div><!--/ col -->
+				<div class="col-md-7 d-block d-md-none">
+					<div class="box-video">
+						<iframe src="https://www.youtube.com/embed/Ry1IkGAKFBg?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div><!--/ box-video -->
 				</div><!--/ col -->
 			</div><!--/ row -->
 		</div><!--/ container -->
@@ -124,7 +134,7 @@
 	<section id="vantagens">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-6 d-none d-md-block">
 					<div class="row">
 						<div class="col-md-6">
 							<div class="box-item">
@@ -158,6 +168,33 @@
 							<p>A empresas mais bem-sucedidas do mundo, grandes e pequenas, confiam no BPP Corp para reduzir custos com organização dos gastos da suas empresas.</p>
 						</div><!--/ box-content -->
 					</div><!--/ d-center -->
+				</div><!--/ col -->
+				<div class="col-12 d-block d-md-none">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="box-item">
+								<img src="assets/images/vantagens/logo-burguer-king.png" alt="">
+							</div><!--/ box-item -->
+						</div><!--/ col -->
+
+						<div class="col-md-6">
+							<div class="box-item">
+								<img src="assets/images/vantagens/logo-boticario.png" alt="">
+							</div><!--/ box-item -->
+						</div><!--/ col -->
+
+						<div class="col-md-6">
+							<div class="box-item">
+								<img src="assets/images/vantagens/logo-cacau-show.png" alt="">
+							</div><!--/ box-item -->
+						</div><!--/ col -->
+
+						<div class="col-md-6">
+							<div class="box-item">
+								<img src="assets/images/vantagens/logo-pague-menos.png" alt="">
+							</div><!--/ box-item -->
+						</div><!--/ col -->
+					</div><!--/ row -->
 				</div><!--/ col -->
 			</div><!--/ row -->
 		</div><!--/ container -->
